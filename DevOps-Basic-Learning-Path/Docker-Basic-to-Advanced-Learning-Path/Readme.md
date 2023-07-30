@@ -8,7 +8,7 @@ Welcome to the Docker Basic to Advanced Learning Path! This GitHub repository is
    - Understand what Docker is and its role in containerization.
    - Learn about Docker architecture and components.
 
-2. Docker Installation and Setup
+2. [Docker Installation and Setup](https://github.com/myaashoolab/Learning-Path/tree/main/DevOps-Basic-Learning-Path/Docker-Basic-to-Advanced-Learning-Path/Docker-Installation-and-Setup)
    - Get started with Docker by installing it on your preferred platform (Windows, macOS, or Linux).
    - Configure Docker settings and verify the installation.
 
