@@ -56,11 +56,11 @@ To get started with Docker, you can install Docker on your preferred platform an
 Remember to check out the other sections of this repository for further topics on Docker and containerization. Happy containerizing! 😊
 
 <div style="display: flex; justify-content: space-between;">
-  <a href="https://github.com/myaashoolab/Learning-Path/tree/27164d3416662b2f33a7d1616fc6cdcafe53c3f9/DevOps-Basic-Learning-Path/Docker-Basic-to-Advanced-Learning-Path" target="_blank">
+  <a href="../" target="_blank">
     <img src="https://github.com/myaashoolab/Learning-Path/blob/46f8c0bc5c689af31aec4f5b267fa04828e9e065/DevOps-Basic-Learning-Path/Docker-Basic-to-Advanced-Learning-Path/Introduction-to-Docker/Images/1690752519101.png" alt="Back Page" height="70" width="175">
   </a>
 
-  <a href="https://github.com/myaashoolab/Learning-Path/tree/eb7c1bbf724e2a06a6c42c9a7ca21e909139c2b6/DevOps-Basic-Learning-Path/Docker-Basic-to-Advanced-Learning-Path/Docker-Installation-and-Setup" target="_blank">
+  <a href="../Docker-Installation-and-Setup" target="_blank">
     <img src="https://github.com/myaashoolab/Learning-Path/blob/27164d3416662b2f33a7d1616fc6cdcafe53c3f9/DevOps-Basic-Learning-Path/Docker-Basic-to-Advanced-Learning-Path/Introduction-to-Docker/Images/image_search_1690752299026.png" alt="Next Page" height="140" width="174">
   </a>
 </div>
