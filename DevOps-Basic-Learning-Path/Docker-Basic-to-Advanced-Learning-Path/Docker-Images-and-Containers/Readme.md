@@ -12,6 +12,8 @@ Welcome to the Docker Images and Containers README! This section will provide yo
   - [Creating Docker Containers](#creating-docker-containers)
   - [Managing Docker Containers](#managing-docker-containers)
   - [Interacting with Docker Containers](#interacting-with-docker-containers)
+  - [Additional Docker Commands](#additional-docker-commands)
+
 
 ## Understanding Docker Images
 
