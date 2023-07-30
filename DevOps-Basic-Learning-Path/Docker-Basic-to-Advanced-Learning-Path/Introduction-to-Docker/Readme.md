@@ -11,6 +11,8 @@ Welcome to the Introduction to Docker README! This document will provide you wit
 
 ## What is Docker?
 
+![What is Docker](https://github.com/myaashoolab/Learning-Path/blob/6d95e6197896c12f5de5cee3d1c0c3f2efdc1471/DevOps-Basic-Learning-Path/Docker-Basic-to-Advanced-Learning-Path/Introduction-to-Docker/Images/image_search_1690750304416.gif)
+
 Docker is an open-source platform that enables developers to automate the deployment of applications inside lightweight, portable containers. It provides a consistent environment to run applications and their dependencies, making it easier to move code from one environment to another without any compatibility issues.
 
 ## Role of Docker in Containerization
