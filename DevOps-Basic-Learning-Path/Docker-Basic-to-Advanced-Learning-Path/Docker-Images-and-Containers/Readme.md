@@ -108,6 +108,113 @@ docker exec -it CONTAINER_ID_or_NAME sh
 
 This command opens a shell session (`sh`) inside the specified container in interactive mode (`-it`).
 
+
+## Additional Docker Commands
+
+### List All Containers
+
+To list all containers, both running and stopped, use the `docker ps -a` command. This command provides information about each container, including their container ID, status, names, ports, and more.
+
+```bash
+docker ps -a
+```
+
+### Stop All Containers
+
+To stop all running containers at once, you can use a combination of `docker ps -q` to get the container IDs of all running containers and `docker stop` to stop them.
+
+```bash
+docker stop $(docker ps -q)
+```
+
+### Remove All Stopped Containers
+
+To remove all stopped containers from your system, use the `docker container prune` command. This command cleans up all stopped containers, freeing up disk space.
+
+```bash
+docker container prune
+```
+
+### Remove All Unused Images
+
+To remove all unused Docker images (dangling images), which are images that are not associated with any containers, you can use the `docker image prune` command.
+
+```bash
+docker image prune
+```
+
+### View Container Logs
+
+To view the logs of a specific container, use the `docker logs` command followed by the container's name or ID.
+
+```bash
+docker logs CONTAINER_ID_or_NAME
+```
+
+### Execute a Command in a Running Container
+
+You can execute a command inside a running container using the `docker exec` command.
+
+```bash
+docker exec -it CONTAINER_ID_or_NAME COMMAND
+```
+
+For example, to open a shell session inside a running container:
+
+```bash
+docker exec -it CONTAINER_ID_or_NAME sh
+```
+
+### Copy Files Between Host and Container
+
+To copy files between the host and a container, use the `docker cp` command. This command allows you to transfer files to and from containers.
+
+To copy a file from the host to a container:
+
+```bash
+docker cp HOST_PATH CONTAINER_ID_or_NAME:CONTAINER_PATH
+```
+
+To copy a file from a container to the host:
+
+```bash
+docker cp CONTAINER_ID_or_NAME:CONTAINER_PATH HOST_PATH
+```
+
+### Rename a Container
+
+To rename an existing container, use the `docker rename` command followed by the current container name and the new name.
+
+```bash
+docker rename CURRENT_NAME NEW_NAME
+```
+
+### Pause and Unpause a Container
+
+You can pause and unpause a running container using the `docker pause` and `docker unpause` commands, respectively.
+
+To pause a container:
+
+```bash
+docker pause CONTAINER_ID_or_NAME
+```
+
+To unpause a container:
+
+```bash
+docker unpause CONTAINER_ID_or_NAME
+```
+
+### Prune Unused Docker Resources
+
+To clean up unused Docker resources, such as stopped containers, unused networks, and dangling images, use the `docker system prune` command.
+
+```bash
+docker system prune
+```
+
+These special Docker commands can be very helpful in managing your containers and images efficiently. By incorporating them into your Docker workflow, you can streamline your development and deployment processes.
+
 ## Next Steps
 
 With a solid understanding of Docker images and containers, you're well-equipped to continue your Docker journey. In the "Table of Contents" above, you'll find links to more topics, including Docker networking, volumes, and orchestration tools.
