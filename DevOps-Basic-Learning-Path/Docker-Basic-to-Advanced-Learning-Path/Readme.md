@@ -12,7 +12,7 @@ Welcome to the Docker Basic to Advanced Learning Path! This GitHub repository is
    - Get started with Docker by installing it on your preferred platform (Windows, macOS, or Linux).
    - Configure Docker settings and verify the installation.
 
-3. Docker Images and Containers
+3. [Docker Images and Containers](https://github.com/myaashoolab/Learning-Path/tree/main/DevOps-Basic-Learning-Path/Docker-Basic-to-Advanced-Learning-Path/Docker-Images-and-Containers)
    - Learn about Docker images, how to create them using Dockerfiles, and the Docker image registry.
    - Understand how to create, manage, and interact with Docker containers.
 
