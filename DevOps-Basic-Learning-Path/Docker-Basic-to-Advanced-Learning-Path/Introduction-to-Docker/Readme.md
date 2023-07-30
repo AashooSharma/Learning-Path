@@ -17,6 +17,8 @@ Docker is an open-source platform that enables developers to automate the deploy
 
 ## Role of Docker in Containerization
 
+![Role of Docker in Containerization](https://github.com/myaashoolab/Learning-Path/blob/00917a6d09ad135046bfcc101f7bf0cfe78ccb7e/DevOps-Basic-Learning-Path/Docker-Basic-to-Advanced-Learning-Path/Introduction-to-Docker/Images/image_search_1690750356729.png)
+
 Containerization is a virtualization method that allows applications and their dependencies to be bundled together into a single container image. These containers are isolated from the host and other containers, providing a consistent runtime environment for the application.
 
 Docker plays a crucial role in containerization by offering the following benefits:
@@ -30,6 +32,8 @@ Docker plays a crucial role in containerization by offering the following benefi
 4. **Rapid Deployment:** Docker simplifies the deployment process by packaging the application and its dependencies into a single container. This eliminates the need for complex installation and setup steps.
 
 ## Docker Architecture and Components
+
+![Docker Architecture and Components](https://github.com/myaashoolab/Learning-Path/blob/00917a6d09ad135046bfcc101f7bf0cfe78ccb7e/DevOps-Basic-Learning-Path/Docker-Basic-to-Advanced-Learning-Path/Introduction-to-Docker/Images/image_search_1690750492366.png)
 
 Docker's architecture comprises several components that work together to provide a seamless containerization experience. The key components include:
 
